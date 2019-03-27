@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Home | Fionita's Project </title>
+
+    <!-- ADD BOOTSTRAP CORE HERE!!!! -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href='http://longbootstraplink.css' rel='stylesheet'>
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <!-- Before naviagtion bar -->
+    <div class="header fixed-top">
+    <img class="header-logo" src="https://scontent-lhr3-1.xx.fbcdn.net/v/t1.15752-9/51962243_326011844694436_8553064247678992384_n.png?_nc_cat=102&_nc_ht=scontent-lhr3-1.xx&oh=b6c9a950329b3508683659093f253adf&oe=5CFA36A0" alt="header-logo">
+  </a>
+  </div>
+<!-- Naviagtion bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="impact.html">Impact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="how you can help.html">How you can help</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary fixed-top" data-toggle="modal" data-target="#exampleModalLong">
+      Donate Here
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLongTitle">Donate Now</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p>Thank you so much!
+      <br>
+      Your contribution could help save a life.
+      <br>
+      We pledge that 100% of all donations go towards teaching the impoverished, life saving skills.</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary"><a class="btn btn-primary" id="buttondonatelink" href="donate.html">Donate</a></button>
+    </div>
+    </div>
+    </div>
+    </div>
+<!-- Beginning text -->
+    <main role="main" class="container">
+
+      <div class="starter-template">
+        <h1>Planting First Aid Across The World</h1>
+        <p class="lead">With A Focus On Africa</p>
+      </div>
+
+      <!-- the slide show -->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-50" src="images/wtc.jpg" alt="woman treating child">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-50" src="images/girl writing on white board.jpg" alt="girl writing on white board">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-50" src="images/Fiona hugging a child.jpg" alt="Fiona hugging a child">
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <h1> So far we have taught in ...</h1>
+      <br>
+      <!-- columns -->
+      <div class="row">
+        <div class="col-sm">
+          <h2>The UK</h2>
+        </div>
+        <div class="col-sm">
+          <h2>Kenya</h2>
+        </div>
+        <div class="col-sm">
+          <h2>Nigeria</h2>
+        </div>
+      </div>
+      <br>
+      <br>
+     <!--video for the landing page here-->
+     <section class="wrapper">
+      <div class="imgwrap">
+        <!--add the video for the landing page here-->
+        <img id="video"style="-webkit-user-select: none;" src="https://i.imgur.com/shk6897.gif" width="1100px">
+      </div>
+      <br>
+      <br>
+
+      <div class=“container”>
+        <div class='row'>
+          <div class='col-sm'>
+            <p1> A block of text goes in here<p1>
+
+            <!--Column content goes here -->
+          </div>
+          <div>
+          <p1> hello</p1>
+        </div>
+
+<!--Social media stuff -->
+<hr>
+<ul class="socialmedia">
+ <li><a href=""><i class="fab fa-facebook-f"></i></i>"></a>
+  <li><a href=""><i class="fab fa-instagram"></i></a></li>
+  <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+</ul>
+    </main><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
